@@ -54,7 +54,7 @@ _̇   : (𝓤 : Universe) → Type (𝓤 ⁺)
 \end{code}
 
 This says that given the universe level `𝓤`, we get the type universe
-`𝓤 ̇`&nbsp;, which lives in the next next type universe universe `𝓤 ⁺`. So
+`𝓤 ̇`&nbsp;, which lives in the next type universe `𝓤 ⁺`. So
 the superscript dot notation is just a (postfix) synonym for (prefix)
 `Type`, which is just a synonym for `Set`, which means type in Agda.
 
